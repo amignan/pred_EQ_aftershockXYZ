@@ -1,0 +1,61 @@
+% ----------------------------------  FINITE-SOURCE RUPTURE MODEL  --------------------------------
+% 
+% Event : Colfiorito Sequence # 2 (Italy) 		09/26/1997 		[Hernandez et al. (2004) ] 
+% EventTAG: s1997COLFIO02HERN
+% 
+% Loc  : LAT  = 43.0305 		LON = 12.8622		DEP = 5.1
+% Size : LEN  = 12.5 km 	WID =  7.5 km		Mw = 5.97	Mo = 1.02e+18 Nm
+% Mech : STRK = 144.0		DIP = 42.0		RAKE = 270.0	Htop = 0.7 km 
+% Rupt : HypX = 11.25 km 	HypZ = 5.00 km 		avTr = 1.0 s	avVr = 1.8 km/s 
+% 
+% ----------------------------------  inversion-related parameters  --------------------------------
+% 
+% Invs :  Nx  =  5 	Nz  = 3 	Fmin = 0.00 Hz 	Fmax = 1.00 Hz 
+% Invs :  Dx  =  2.50 km 	Dz  = 2.50 km 
+% Invs :  Ntw =  1	Nsg =  1 			(# of time-windows,# of fault segments) 
+% Invs :  LEN =  1.0 s	SHF =  0.0 s 		(time-window length and time-shift) 
+% SVF  :  smooth ramp 					(type of slip-velocity function used) 
+% 
+% Data : 	SGM	TELE	TRIL	LEVEL	GPS	INSAR	SURF	OTHER
+% Data : 	9999	0	0	0	0	0	0	0
+% PHImx: 	999	0	0	0	0	0	0	0
+% Rmin : 	999	0	0	0	0	0	0	0
+	999.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+% 
+% --------------------------------------------------------------------------------------------------
+% 
+% VELOCITY-DENSITY STRUCTURE 
+% No.  of layers =  3 
+% 
+%	DEPTH	P-VEL	S-VEL	DENS
+%	[km]	[km/s]	[km/s]	[g/cm^3]  
+% % %      32.00      7.80      4.50      3.30
+% 
+% --------------------------------------------------------------------------------------------------
+% 23-Jul-2007 PMM (mai@sed.ethz.ch) 
+% --------------------------------------------------------------------------------------------------
+% 
+% SOURCE MODEL PARAMETERS 
+% 	Nsbfs = 15 subfaults 
+% 		X,Y,Z coordinates in km; SLIP in m 
+% 		if applicable: RAKE in deg, RISE in s, TRUP in s, slip in each TW in m 
+% 
+%   Coordinates are given for top-center of each subfault or segment: |'| 
+%   Origin of local coordinate system at epicenter: X (EW) = 0,  Y (NS) = 0  
+%    LAT       LON       X==EW       Y==NS       Z       SLIP       TRUP     
+% -------------------------------------------------------------------------------------------------- 
+   43.1230   12.8268   -2.8718   10.2742    0.7000    0.4390    4.5609  
+   43.1048   12.8449   -1.4023    8.2517    0.7000    0.0430    3.6619  
+   43.0866   12.8630    0.0672    6.2291    0.7000    0.2120    2.8029  
+   43.0684   12.8811    1.5366    4.2066    0.7000    0.4050    2.0399  
+   43.0502   12.8992    3.0061    2.1840    0.7000    0.1630    1.5199  
+   43.1131   12.8083   -4.3748    9.1822    2.3728    0.0210    4.3539  
+   43.0949   12.8264   -2.9053    7.1597    2.3728    0.2180    3.3999  
+   43.0767   12.8445   -1.4359    5.1371    2.3728    0.0080    2.4519  
+   43.0585   12.8626    0.0336    3.1146    2.3728    1.3540    1.5199  
+   43.0403   12.8807    1.5030    1.0920    2.3728    0.5180    0.6799  
+   43.1033   12.7898   -5.8779    8.0902    4.0457    0.0290    4.3539  
+   43.0851   12.8079   -4.4084    6.0676    4.0457    0.4360    3.3999  
+   43.0669   12.8260   -2.9389    4.0451    4.0457    0.7250    2.4519  
+   43.0487   12.8441   -1.4695    2.0225    4.0457    0.6080    1.5199  
+   43.0305   12.8622    0.0000    0.0000    4.0457    0.7560    0.6799  

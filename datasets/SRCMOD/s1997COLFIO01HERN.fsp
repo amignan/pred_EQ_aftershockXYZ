@@ -1,0 +1,55 @@
+% ----------------------------------  FINITE-SOURCE RUPTURE MODEL  --------------------------------
+% 
+% Event : Colfiorito Sequence # 1 (Italy) 		09/26/1997 		[Hernandez et al. (2004) ] 
+% EventTAG: s1997COLFIO01HERN
+% 
+% Loc  : LAT  = 43.0225 		LON = 12.8917		DEP = 4.04
+% Size : LEN  = 7.5 km 	WID =  7.5 km		Mw = 5.72	Mo = 4.32e+17 Nm
+% Mech : STRK = 152.0		DIP = 46.0		RAKE = 270.0	Htop = 1.5 km 
+% Rupt : HypX = 1.25 km 	HypZ = 5.00 km 		avTr = 1.0 s	avVr = 2.2 km/s 
+% 
+% ----------------------------------  inversion-related parameters  --------------------------------
+% 
+% Invs :  Nx  =  3 	Nz  = 3 	Fmin = 0.00 Hz 	Fmax = 1.00 Hz 
+% Invs :  Dx  =  2.50 km 	Dz  = 2.50 km 
+% Invs :  Ntw =  1	Nsg =  1 			(# of time-windows,# of fault segments) 
+% Invs :  LEN =  1.0 s	SHF =  0.0 s 		(time-window length and time-shift) 
+% SVF  :  smooth ramp 					(type of slip-velocity function used) 
+% 
+% Data : 	SGM	TELE	TRIL	LEVEL	GPS	INSAR	SURF	OTHER
+% Data : 	999	0	0	0	0	0	0	0
+% PHImx: 	999	0	0	0	0	0	0	0
+% Rmin : 	999	0	0	0	0	0	0	0
+	999.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+% 
+% --------------------------------------------------------------------------------------------------
+% 
+% VELOCITY-DENSITY STRUCTURE 
+% No.  of layers =  3 
+% 
+%	DEPTH	P-VEL	S-VEL	DENS
+%	[km]	[km/s]	[km/s]	[g/cm^3]  
+% % %      32.00      7.80      4.50      3.30
+% 
+% --------------------------------------------------------------------------------------------------
+% 23-Jul-2007 PMM (mai@sed.ethz.ch) 
+% --------------------------------------------------------------------------------------------------
+% 
+% SOURCE MODEL PARAMETERS 
+% 	Nsbfs = 9 subfaults 
+% 		X,Y,Z coordinates in km; SLIP in m 
+% 		if applicable: RAKE in deg, RISE in s, TRUP in s, slip in each TW in m 
+% 
+%   Coordinates are given for top-center of each subfault or segment: |'| 
+%   Origin of local coordinate system at epicenter: X (EW) = 0,  Y (NS) = 0  
+%    LAT       LON       X==EW       Y==NS       Z       SLIP       TRUP     
+% -------------------------------------------------------------------------------------------------- 
+   43.0372   12.9294    3.0667    1.6306    1.5000    0.1700    1.5199  
+   43.0173   12.9439    4.2404   -0.5768    1.5000    0.0000    2.0399  
+   42.9974   12.9583    5.4141   -2.7841    1.5000    0.2080    2.8029  
+   43.0298   12.9106    1.5334    0.8153    3.2983    0.6040    0.6799  
+   43.0100   12.9250    2.7070   -1.3921    3.2983    0.0000    1.5199  
+   42.9901   12.9395    3.8807   -3.5994    3.2983    0.1080    2.4519  
+   43.0225   12.8917    0.0000    0.0000    5.0967    0.6380    0.6799  
+   43.0026   12.9061    1.1737   -2.2074    5.0967    0.4100    1.5199  
+   42.9828   12.9206    2.3474   -4.4147    5.0967    0.3320    2.4519  
