@@ -1,7 +1,7 @@
 
-# pred_seism_aftXYZ
+# pred_EQ_aftershockXYZ
 
-Analysis of the recent article 'Deep learning of aftershock patterns following large earthquakes' by Phoebe M. R. DeVries, Fernanda Viégas, Martin Wattenberg & Brendan J. Meade, published in [Nature](https://www.nature.com/articles/s41586-018-0438-y) in 2018.
+Analysis of the 2018 article 'Deep learning of aftershock patterns following large earthquakes' by Phoebe M. R. DeVries, Fernanda Viégas, Martin Wattenberg & Brendan J. Meade, published in [Nature](https://www.nature.com/articles/s41586-018-0438-y).
 
 This repo includes, chronologically:
 
@@ -15,9 +15,7 @@ of Aftershock Patterns Following Large Earthquakes’: Illustrating First Princi
 
 See also:
 
-(3) Coursera/IBM Advanced Data Science Capstone project [video](https://www.youtube.com/watch?v=k8ciiViRqPA)
-
-(4) [ArXiv preprint](https://arxiv.org/abs/1904.01983) **One neuron is more informative than a deep neural network for aftershock pattern forecasting** where we go one step further in the analysis, showing that a logistic regression (one neuron) performs as well as, if not better than any more complex neural network.
+(3) Our follow-up study, also published in Nature **One neuron versus deep learning in aftershock prediction** where we go one step further in the analysis, showing that a logistic regression (one neuron) performs as well as, if not better than any more complex neural network [Mignan & Broccardo, 2019](https://www.nature.com/articles/s41586-019-1582-8).
 
 
 NB: in (1), in case GitHub cannot load a notebook, use instead https://nbviewer.jupyter.org/github/amignan/pred_seism_aftXYZ/blob/master/notebooks/NOTEBOOK_NAME.ipynb
