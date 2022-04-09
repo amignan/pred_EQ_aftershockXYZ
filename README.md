@@ -15,7 +15,9 @@ of Aftershock Patterns Following Large Earthquakes’: Illustrating First Princi
 
 See also:
 
-(3) Our follow-up study, also published in Nature **One neuron versus deep learning in aftershock prediction** where we go one step further in the analysis, showing that a logistic regression (one neuron) performs as well as, if not better than any more complex neural network [Mignan & Broccardo, 2019](https://www.nature.com/articles/s41586-019-1582-8).
+(3) Our follow-up study, published in Nature in 2019 and titled **One neuron versus deep learning in aftershock prediction**, where we go one step further in the analysis, showing that a logistic regression (one neuron) performs as well as, if not better than any more complex neural network [Mignan & Broccardo, 2019](https://www.nature.com/articles/s41586-019-1582-8);
+
+(4) Coverage in the media: 'Harvard & Google Seismic Paper Hit With Rebuttals: Is Deep Learning Suited to Aftershock Prediction?' on [syncedreview.com](https://syncedreview.com/2019/10/22/harvard-google-seismic-paper-hit-with-rebuttals-is-deep-learning-suited-to-aftershock-prediction/), 'Misuse of Deep Learning in Nature’s Earthquake Aftershock Paper' on [Medium Towards Data Science](https://towardsdatascience.com/stand-up-for-best-practices-8a8433d3e0e8)
 
 
 NB: in (1), in case GitHub cannot load a notebook, use instead https://nbviewer.jupyter.org/github/amignan/pred_seism_aftXYZ/blob/master/notebooks/NOTEBOOK_NAME.ipynb
